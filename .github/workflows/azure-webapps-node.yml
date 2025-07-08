@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jual Akun Canva Pro Murah - Desta Adha Wiguna</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+        :root {
+            --primary-color: #8A2BE2; /* Ungu khas Canva */
+            --secondary-color: #4A90E2; /* Biru */
+            --dark-color: #333;
+            --light-color: #fff;
+            --bg-light: #f4f7f9;
+            --success-color: #28a745;
+            --warning-color: #ffc107;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: var(--bg-light);
+            color: var(--dark-color);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 20px;
+            overflow: hidden;
+        }
+
+        header {
+            background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
+            color: var(--light-color);
+            padding: 60px 20px;
+            text-align: center;
+            border-bottom-left-radius: 50px;
+            border-bottom-right-radius: 50px;
+        }
+
+        header h1 {
+            font-size: 2.8rem;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            max-width: 600px;
+            margin: auto;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 40px;
+            font-weight: 700;
+            margin-top: 40px;
+        }
+
+        .pricing-grid, .features-grid, .comparison-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .card {
+            background: var(--light-color);
+            border-radius: 15px;
+            box-shadow: 0 5px 25px rgba(0,0,0,0.1);
+            padding: 30px;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+        }
+
+        .card-header {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: var(--primary-color);
+            margin-bottom: 15px;
+        }
+
+        .price-item {
+            border-top: 1px solid #eee;
+            padding: 20px 0;
+        }
+        
+        .price-item:first-child {
+            border-top: none;
+        }
+
+        .price-tag {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--dark-color);
+            margin: 10px 0;
+        }
+
+        .price-duration {
+            font-size: 1rem;
+            color: #777;
+        }
+
+        .badge {
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: var(--dark-color);
+            margin-left: 10px;
+        }
+
+        .badge.best-seller {
+            background-color: var(--warning-color);
+        }
+
+        .badge.hemat {
+            background-color: var(--success-color);
+            color: var(--light-color);
+        }
+
+        .description, .profit {
+            margin: 15px 0;
+            color: #555;
+            font-size: 0.9rem;
+            flex-grow: 1; /* Makes card body grow */
+        }
+        
+        .profit {
+            font-style: italic;
+            font-weight: 600;
+            color: var(--secondary-color);
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background: linear-gradient(45deg, var(--secondary-color), var(--primary-color));
+            color: var(--light-color);
+            padding: 12px 30px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            margin-top: 20px;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .cta-button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 20px rgba(138, 43, 226, 0.4);
+        }
+        
+        .feature-item {
+            background: var(--light-color);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        
+        .feature-item h3 {
+            margin-bottom: 10px;
+            color: var(--secondary-color);
+        }
+
+        .comparison-card {
+            padding: 30px;
+        }
+
+        .comparison-card ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .comparison-card li {
+            margin-bottom: 15px;
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .comparison-card li span {
+            margin-right: 10px;
+            font-size: 1.2rem;
+        }
+        
+        .comparison-card .pro { color: var(--success-color); }
+        .comparison-card .con { color: #dc3545; }
+
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            margin-top: 40px;
+            background: var(--dark-color);
+            color: var(--light-color);
+        }
+        
+        @media(max-width: 768px) {
+            header h1 {
+                font-size: 2.2rem;
+            }
+            .section-title {
+                font-size: 1.8rem;
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>✨ CANVA PRO MURAH & BERGARANSI ✨</h1>
+        <p>Pengen hasil desain maksimal tapi nggak mau bayar mahal? 🤔 Upgrade Canva-mu di sini aja! 🚀</p>
+    </header>
+
+    <div class="container">
+        <section id="harga">
+            <h2 class="section-title">💎 DAFTAR HARGA TERBAIK 💎</h2>
+
+            <div class="pricing-grid">
+                
+                <div class="card">
+                    <h3 class="card-header">Canva Pro (Member)</h3>
+                    <div class="description">Cocok untuk pengguna kasual yang butuh akses fitur premium tanpa perlu kustomisasi brand.</div>
+                    <div class="price-item">
+                        <div class="price-tag">Rp 3.000</div>
+                        <div class="price-duration">🗓️ 1 Bulan</div>
+                    </div>
+                    <a href="https://api.whatsapp.com/send?phone=6283154968572&text=Halo%2C%20saya%20ingin%20memesan%20Canva%20Pro%20MEMBER%201%20Bulan." class="cta-button" target="_blank">Pesan Sekarang</a>
+                </div>
+
+                <div class="card">
+                     <h3 class="card-header">Canva Pro DESIGNER</h3>
+                     <div class="description">Fitur paling LENGKAP! Ideal untuk desainer, freelancer, dan pebisnis yang butuh kustomisasi penuh.</div>
+                    
+                    <div class="price-item">
+                        <div class="price-tag">Rp 4.000</div>
+                        <div class="price-duration">🗓️ 1 Bulan</div>
+                        <a href="https://api.whatsapp.com/send?phone=6283154968572&text=Halo%2C%20saya%20ingin%20memesan%20Canva%20Pro%20DESIGNER%201%20Bulan." class="cta-button" target="_blank">Pesan Sekarang</a>
+                    </div>
+                    
+                    <div class="price-item">
+                        <div class="price-tag">Rp 9.000 <span class="badge best-seller">⭐ Best Seller!</span></div>
+                        <div class="price-duration">🗓️ 6 Bulan (+ FULL Garansi)</div>
+                        <a href="https://api.whatsapp.com/send?phone=6283154968572&text=Halo%2C%20saya%20ingin%20memesan%20Canva%20Pro%20DESIGNER%206%20Bulan." class="cta-button" target="_blank">Pesan Sekarang</a>
+                    </div>
+
+                    <div class="price-item">
+                        <div class="price-tag">Rp 18.000 <span class="badge hemat">✅ Paling Hemat!</span></div>
+                        <div class="price-duration">🗓️ 1 Tahun (+ Garansi 6 Bulan)</div>
+                         <a href="https://api.whatsapp.com/send?phone=6283154968572&text=Halo%2C%20saya%20ingin%20memesan%20Canva%20Pro%20DESIGNER%201%20Tahun." class="cta-button" target="_blank">Pesan Sekarang</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                     <h3 class="card-header">👑 PAKET TIM & KOMUNITAS 👑</h3>
+                     <div class="description">Solusi hemat untuk tim, agensi, atau komunitas. Kelola banyak anggota dalam satu dasbor.</div>
+                    
+                    <div class="price-item">
+                        <h4>Canva ADMIN</h4>
+                        <div class="price-tag">Rp 10.000</div>
+                        <div class="price-duration">🗓️ 6 Bulan (Garansi 6 Bulan)</div>
+                        <div class="profit">👥 Bisa undang 100 Member ke dalam tim!</div>
+                        <a href="https://api.whatsapp.com/send?phone=6283154968572&text=Halo%2C%20saya%20ingin%20memesan%20paket%20Canva%20ADMIN%206%20Bulan." class="cta-button" target="_blank">Pesan Sekarang</a>
+                    </div>
+
+                    <div class="price-item">
+                        <h4>Canva OWNER (Private)</h4>
+                         <div class="profit">👑 Bisa undang 5 Admin atau 500 Member!</div>
+                        <p style="margin-top: 15px;">Dapatkan harga spesial untuk kebutuhan skala besar. Fleksibel dan penuh kontrol.</p>
+                         <a href="https://api.whatsapp.com/send?phone=6283154968572&text=Halo%2C%20saya%20tertarik%20dengan%20paket%20Canva%20OWNER%20(Private).%20Boleh%20minta%20info%20harga%20spesialnya%3F" class="cta-button" target="_blank">Hubungi Kami</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="keunggulan">
+            <h2 class="section-title">✅ KENAPA BELI DI SINI? ✅</h2>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <h3>🔒 Aman & Mudah</h3>
+                    <p>Cukup kirim email saja, tidak perlu password! Privasi Anda terjamin.</p>
+                </div>
+                <div class="feature-item">
+                    <h3>💯 Full Garansi</h3>
+                    <p>Akun bermasalah selama masa garansi? Tenang, kami ganti baru! Kepuasan Anda adalah prioritas.</p>
+                </div>
+                <div class="feature-item">
+                    <h3>💸 Harga Jujur</h3>
+                    <p>Kami menawarkan harga paling murah dan terpercaya, tanpa biaya tersembunyi.</p>
+                </div>
+                <div class="feature-item">
+                    <h3>⚡ Proses Cepat</h3>
+                    <p>Setelah pembayaran, akun langsung diaktifkan dan bisa segera Anda gunakan untuk berkreasi.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="perbedaan">
+            <h2 class="section-title">⚠️ PENTING! INI BEDANYA PLAN DESIGNER & MEMBER ⚠️</h2>
+            <div class="comparison-grid">
+                <div class="card comparison-card">
+                    <h3 class="card-header">🎨 Canva Pro DESIGNER</h3>
+                    <p><strong>*Fitur paling LENGKAP!*</strong></p>
+                    <ul>
+                        <li><span class="pro">✅</span> Bisa Upload Font sendiri ✍️</li>
+                        <li><span class="pro">✅</span> Bisa atur Brand Kit (Logo, warna brand, dll) 🖼️</li>
+                        <li><span class="pro">✅</span> Bisa simpan Color Palette kustom 🎨</li>
+                        <li><span class="pro">✅</span> Akses semua fitur premium (PPT, Magic Eraser, dll) ✨</li>
+                    </ul>
+                </div>
+                 <div class="card comparison-card">
+                    <h3 class="card-header">👤 Canva Pro MEMBER</h3>
+                    <p><strong>*Cocok untuk pengguna kasual!*</strong></p>
+                     <ul>
+                        <li><span class="pro">✅</span> Akses semua fitur premium (PPT, Magic Eraser, dll) ✨</li>
+                        <li><span class="con">❌</span> Tidak bisa upload font.</li>
+                        <li><span class="con">❌</span> Tidak bisa mengatur Brand Kit.</li>
+                        <li><span class="con">❌</span> Tidak bisa simpan Color Palette kustom.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2025 - Penjualan Akun Canva Pro Terpercaya</p>
+        <p><strong>Owner: Desta Adha Wiguna</strong></p>
+    </footer>
+
+</body>
+</html>
